@@ -1,0 +1,16 @@
+\documentclass[12pt]{article}
+
+\usepackage[russian]{babel}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{caption}
+
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+
+\title{Нормальное распределение}
+\date{\today}
+
+\begin{document}

@@ -1,0 +1,9 @@
+some text
+> #include <stdio.h>
+> int main()
+> {
+some text
+>   printf("aaaa");
+>   return 0;
+> }
+some text
